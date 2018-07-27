@@ -1,0 +1,173 @@
+/* HEADER */
+header{
+  background-color: #F799E4;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partLeftHeader {
+  display: flex;
+  padding: 0;
+  height: 88px;
+}
+
+.logo{
+margin-left: 104px;
+}
+
+.name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  padding-left: 16px;
+  margin: 0;
+  margin-top: 16px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.select{
+  color: #FFFDFD;
+  font-weight: 400;
+}
+
+ul{
+ list-style-type: none;
+}
+
+li{
+ display: inline;
+}
+
+.headerOptions{
+  padding-right: 104px;
+  margin-top: 32px;
+}
+
+.Contacto, .Blog{
+  padding-left: 36px;
+}
+
+/* BODY */
+body, .textFormName, .InputName, .InputEmail, .InputMess, .dataContact{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin:0;
+  background-color: #FFFDFD;
+
+}
+.partLeftBody{
+  margin-left: 104px;
+  margin-top: 40px;
+  width: 648px;
+}
+.tittleContacto{
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 227px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.firstParag{
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+p{
+  text-align: justify;
+  margin: 0px;
+}
+.textFormName, .textFormEmail, .textFormMess {
+padding-top: 40px;
+}
+
+.partTOP{
+  display: flex;
+}
+.InputName{
+  margin-top: 16px;
+  height:38px;
+  size:100px;
+  width: 312px;
+  border-radius: 3px;
+  border-style: inset;
+  border: 0.5px solid #9B9B9B;
+}
+
+.partB{
+  margin-left: 26px;
+}
+
+.InputEmail{
+  margin-top: 16px;
+  height:36px;
+  size:200px;
+  width: 312px;
+
+  border-radius: 3px;
+  border-style: inset;
+  border: 0.5px solid #9B9B9B;
+}
+
+.InputMess{
+  margin-top: 16px;
+  height:112px;
+  size:200px;
+  width: 656px;
+  border-radius: 3px;
+  border-style: inset;
+  border: 0.5px solid #9B9B9B;
+}
+
+button{
+  border-radius: 3px;
+  border-style: none;
+  width: 104px;
+  height:36px;
+  background-color:#F799E4;
+  color: #FFFDFD;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-left: 558px;
+  margin-top: 8px;
+}
+.AllBody{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partRightBody{
+  width: 336px;
+  height: 455px;
+  border-style: solid;
+  border-radius: 3px;
+  margin-right: 104px;
+  margin-top: 80px;
+  display: block;
+}
+.partRightBody img{
+  width:48px;
+  height: auto;
+  padding-left: 56px;
+  padding-top: 36px;
+  justify-content: flex-start;
+}
+.imgFirst{
+padding-top: 20px;
+}
+
+.mediaContact{
+  display: flex;
+    justify-content: space-between;
+}
+
+.dataContactOne , .dataContactTwo, .dataContactThree , .dataContactFour{
+  margin-top: 30px;
+  align-self: center;
+  margin-right: 56px;
+}
+.partRightBody a{
+  font-size: 14px;
+}

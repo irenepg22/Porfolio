@@ -1,0 +1,13 @@
+{
+  "name": "iron-portfolio",
+  "version": "0.0.1",
+  "description": "martingl portfolio",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777"
+  },
+  "author": "martingl",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.24.5"
+  }
+}
