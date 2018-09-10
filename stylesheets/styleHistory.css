@@ -1,36 +1,49 @@
+/* HEADER */
 header{
-  background-color: #F799E4;
+  background-color: #FFAEEF;
   height: 88px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  color: #626262;
+  position: fixed;
+
 }
 
-.partLeft {
+.partLeftHeader {
   display: flex;
   padding: 0;
   height: 88px;
+  margin-bottom: 16px;
 }
 
 .logo{
 margin-left: 104px;
+width: 88px;
+height: 88px;
 }
 
 .name{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Rozha One', serif;
   font-size: 60px;
-  padding-left: 16px;
   margin: 0;
   margin-top: 16px;
 }
-
-body{
-  font-family: 'Roboto', sans-serif;
-  margin:0;
+.nameF{
+  font-family: 'Rozha One', serif;
+  font-size: 80px;
+  padding-left: 16px;
+  margin: 0;
+}
+.nameComplete{
+  display: flex;
+  align-items: baseline;
+  margin-top: -8px;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: #626262;
   font-size: 18px;
 }
 
@@ -39,11 +52,43 @@ a{
   font-weight: 400;
 }
 
-ul{
+ul.headerOptions{
  list-style-type: none;
 }
 
-li{
+li.headerOptions{
+ display: inline;
+}
+
+.headerOptions{
+  padding-right: 104px;
+  margin-top: 32px;
+}
+
+.Contacto, .Blog{
+  padding-left: 36px;
+}
+
+/* BODY */
+body, .textFormName, .InputName, .InputEmail, .InputMess, .dataContact{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin:0;
+  background-color: #FFFDFD;
+  color: #626262;
+
+}
+
+.select{
+  color: #FFFDFD;
+  font-weight: 400;
+}
+
+ul.headerOptions{
+ list-style-type: none;
+}
+
+li.miHistoria, li.Blog, li.Contacto{
  display: inline;
 }
 .headerOptions{
@@ -52,4 +97,101 @@ li{
 }
 .Contacto, .Blog{
   padding-left: 36px;
+}
+
+.AllBody{
+  display: flex;
+  justify-content: space-between;
+}
+
+p{
+  text-align: justify;
+  margin: 0px;
+}
+
+.parag{
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+.parag2{
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+
+.parag3{
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-style: italic;
+  font-size: 15px;
+}
+.parag4{
+  padding: 0px;
+  margin-left: 16px;
+  font-style: italic;
+}
+.parag5{
+  padding: 0px;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.parag5{
+  padding: 0px;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.parag6{
+  padding: 0px;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+.parag7{
+  padding: 0px;
+  margin-left: 16px;
+}
+ul{
+  margin-left: 16px;
+  padding: 0;
+}
+
+.normal{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin:0;
+  background-color: #FFFDFD;
+  color: #626262;
+
+}
+
+.tittleHistoria{
+  font-size: 40px;
+  font-family: 'Rozha One', serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.partRightBody{
+/*  display: flex;
+  flex-direction: column;
+  margin-top: -360px;*/
+  margin-top: 112px;
+  height: 88px;
+  margin-bottom: 16px;
+  margin-right: 104px;
+  width: 648px;
+}
+img{
+  width:70%;
+  height: auto;
+}
+.imagen_historia{
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  max-width: 800px;
+  align-self: center;
+  max-height: 100%;
 }
